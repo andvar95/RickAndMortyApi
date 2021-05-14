@@ -17,7 +17,7 @@ const dibujarData = (data) => {
   console.log(data);
   let html = "";
   data.forEach((pj) => {
-    html += `<div class="col-md-4 col-sm-10">
+    html += `<div class="col-md-4 mt-5">
      <div class="card" style="width: 20rem; height:80vh;">
      <img src="${pj.image}" class="card-img-top" alt="...">
      <div class="card-body">
