@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/* div se ajusta*/
+/* hieght con cuidado no acepta 
+height + padding
+*/
+.divHeader{
+    width:100%;   
+}
+
+.divHeader .header{
+    color:white;
+
+    background-color: rgb(100, 98, 98);
+    
+}
+
+.styleContainer{
+    margin-top:140px;
+}
+
+footer{
+    color:white;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color: rgb(100, 98, 98);
+}
+
+ul {
+    list-style: none;
+}
+.paginacion{
+    display:flex;
+    width:100%;
+    justify-content:space-evenly;
+}
+
+.size-row{
+    font-size:20px;
+}
